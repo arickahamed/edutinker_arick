@@ -1,0 +1,40 @@
+.navigation_container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.logo {
+    font-weight: 800;
+    width: 50%;
+}
+
+.main_color {
+    color: #004f3f;
+}
+
+.orange_color {
+    color: #e28c03;
+}
+
+.small {
+    font-size: 7px;
+}
+
+.navbar {
+    width: 50%;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    list-style: none;
+}

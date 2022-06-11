@@ -1,0 +1,139 @@
+.hero-section__container {
+    width: 80%;
+    /* height: auto; */
+    height: 450px;
+    margin: 0 auto;
+    /* border: 1px solid tomato; */
+    background-image: url(../../images/header/hero_image.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+/* --------------hero section top-------------- */
+.hero-section__top {
+    display: flex;
+}
+
+.hero_heading {
+    color: #0d352d;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.round_image {
+    top: 25%;
+    left: 9%;
+    position: absolute;
+    width: 20%;
+}
+
+.top_right {
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+}
+
+.top_right_info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid green;
+}
+
+/* ---------- hero section bottom ---------- */
+.hero-section__bottom {
+    display: flex;
+    /* border: 1px solid tomato; */
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.hero-section__bottom .bottom_left {
+    display: flex;
+}
+
+.book_btn {
+    padding: 8px 40px;
+    background-color: rgba(226, 140, 3, 1);
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.icon_holder {
+    margin: 0 20px;
+    padding: 5px;
+    border-radius: 50%;
+    height: fit-content;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.7);
+}
+
+.hero-section__bottom .bottom_left p {
+    font-size: small;
+    font-weight: 600;
+}
+
+.bottom_right {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+    width: 50%;
+    height: 140px;
+}
+
+.bottom_right .one {
+    display: flex;
+    /* border: 1px solid brown; */
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    align-self: flex-end;
+}
+
+.small_image__holder img {
+    width: 50%;
+    margin: 10px;
+}
+
+.bottom_right .one .info h5 {
+    margin: 10px auto 0 auto;
+    padding-right: 10px;
+    /* border: 1px solid darkorchid; */
+}
+
+.info-para {
+    font-size: small;
+    margin: 0 auto;
+}
+
+.join_btn button {
+    display: block;
+    margin: 10px 0;
+    background-color: rgba(226, 140, 3, 1);
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+}
+
+.bottom_right .two {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: fit-content;
+    width: 35%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.congo {
+    margin: 10px auto 0 auto;
+}
+
+.congo-para {
+    margin-bottom: 20px;
+}
