@@ -1,0 +1,32 @@
+.brand_container {
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: 50px auto;
+    text-align: center;
+}
+
+.brand_image img {
+    width: 100px;
+    height: 50px;
+    margin-right: 10px;
+    /* border: 1px solid red; */
+}
+
+.brand_details_two {
+    /* border: 1px solid tomato; */
+    overflow: hidden;
+    margin: 30px auto;
+}
+
+.brand_details_two h5 {
+    margin-bottom: 0;
+    color: rgba(0, 137, 123, 1);
+}
+
+.brand_details_two h2 {
+    margin-top: 5px;
+}
+
+.brand_details_two p {
+    font-size: small;
+}

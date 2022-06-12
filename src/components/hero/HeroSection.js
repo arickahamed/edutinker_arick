@@ -24,14 +24,6 @@ const HeroSection = () => {
                         ut veritatis.
                     </p>
                 </div>
-
-                {/* -------top right------- */}
-                <div className="top_right">
-                    <div className="top_right_info">
-                        <h1>UNDER CONSTRUCTION</h1>
-                    
-                    </div>
-                </div>
             </div>
 
             {/* --------------hero section bottom part------------- */}

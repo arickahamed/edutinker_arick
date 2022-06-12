@@ -1,0 +1,31 @@
+.reward_bottom_container {
+    width: auto;
+    background-color: rgba(0, 137, 123, 1);
+    text-align: center;
+    color: white;
+    height: 400px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reward_bottom_container h3 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.reward_bottom_container p {
+    margin: 5px auto;
+    font-size: small;
+}
+
+.reward_bottom_container button {
+    margin: 20px;
+    background-color: rgba(226, 140, 3, 1);
+    padding: 7px 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
