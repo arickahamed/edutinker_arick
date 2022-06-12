@@ -1,0 +1,49 @@
+.blog_container {
+    width: 80%;
+    margin: 80px auto;
+    border: 1px solid tomato;
+    text-align: center;
+}
+
+/* ----------blog info section--------- */
+.blog_info h6 {
+    margin-bottom: 0;
+    color: rgba(0, 137, 123, 1);
+}
+
+.blog_info h2 {
+    margin: 0 0;
+}
+
+.blog_info p {
+    margin-top: 5px;
+    padding-bottom: 50px;
+    font-size: small;
+}
+
+/* ----------card section------------ */
+.card_holder {
+    width: 60%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto 50px auto;
+}
+
+.card_holder .same {
+    border-radius: 5px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+.card_holder button {
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+}
